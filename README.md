@@ -25,4 +25,4 @@ After running the script you will need to set up path to the file the script wil
 T:\folder\child_folder\file.txt
 ```
 You can stop the write mode by copying "stop write" and then start it again by copying "start write".<br>
-To end the script either close the file or copy "end write" :x:.
+To end :x: the script either close the file or copy "end write".
