@@ -9,6 +9,7 @@ while True:
     print("Instructions:")
     print(f'To exit write mode:\n copy stop write\n close the file')
     print(f'To resume:\n If file is closed run the file\n If still running copy start write')
+    print(f'To close process:\n copy end write')
     print("Now enter the file for writting")
     userInp = input("Path to file you want to write into: ")
     # File validity check
@@ -44,6 +45,9 @@ while True:
     elif copied_text.lower() == "start write":
         is_stopped = False
         continue
+    elif copied_text.lower() == "end write":
+        print("Closing process...")
+        break
     # Skip iteration if write is stopped
     if is_stopped:
         continue
